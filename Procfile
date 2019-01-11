@@ -1,1 +1,1 @@
-web: gunicorn Fulvia:run
+web: gunicorn run:app
