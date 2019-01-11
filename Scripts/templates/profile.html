@@ -1,17 +1,19 @@
-<style>
-    .rounded-circle
-    {
-        margin-right:50px;
-    }
-    #Updatedetails
-    {
-        width:15%;
-    }
-    .content-section
-    {
-        margin-left: 30px;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">-->
+    <!-- Guide Style CSS -->
+    <link rel="stylesheet" href="../static/profile.css">
+    <link rel="icon" href="../static/Healthfit.png">
+    <script src="../static/profile.js"></script>
+    <title>Profile</title>
+</head>
+<body>
 {% extends "layout.html" %}
 {% block body %}
 <br>
@@ -26,6 +28,10 @@
         <p class="text-secondary">Weight(KG): {{ current_user.weight }}</p>
     </div>
   </div>
+    <div id="chartContainer">
+        <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    </div>
     <form method="POST" action="" enctype="multipart/form-data">
         {{ form.hidden_tag() }}
         <br>
@@ -114,3 +120,5 @@
     </form>
 </div>
 {% endblock %}
+</body>
+</html>
