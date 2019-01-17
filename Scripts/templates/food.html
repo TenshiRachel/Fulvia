@@ -34,57 +34,57 @@
     }
 </style>
 
-<script>
-function recordbreakfast() {
-    let i;
-    let breakfastfoodlist = [];
-    let gramls = [];
-    for(i=0; i < 1; i++) {
-        breakfastfoodlist.push(prompt("Enter food:"));
-        gramls.push(prompt("Enter amount of " + breakfastfoodlist[i] + " in gram:"));
-        document.getElementById('listadd1').innerHTML += "<li>" + "Food:" + breakfastfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";
-}}
+<!--<script>-->
+<!--function recordbreakfast() {-->
+    <!--let i;-->
+    <!--let breakfastfoodlist = [];-->
+    <!--let gramls = [];-->
+    <!--for(i=0; i < 1; i++) {-->
+        <!--breakfastfoodlist.push(prompt("Enter food:"));-->
+        <!--gramls.push(prompt("Enter amount of " + breakfastfoodlist[i] + " in gram:"));-->
+        <!--document.getElementById('listadd1').innerHTML += "<li>" + "Food:" + breakfastfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";-->
+<!--}}-->
 
-function recordlunch() {
-    let i;
-    let lunchfoodlist = [];
-    let gramls = [];
-    for(i=0; i < 1; i++) {
-        lunchfoodlist.push(prompt("Enter food:"));
-        gramls.push(prompt("Enter amount of " + lunchfoodlist[i] + " in gram:"));
-        document.getElementById('listadd2').innerHTML += "<li>" + "Food:" + lunchfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";
-}}
+<!--function recordlunch() {-->
+    <!--let i;-->
+    <!--let lunchfoodlist = [];-->
+    <!--let gramls = [];-->
+    <!--for(i=0; i < 1; i++) {-->
+        <!--lunchfoodlist.push(prompt("Enter food:"));-->
+        <!--gramls.push(prompt("Enter amount of " + lunchfoodlist[i] + " in gram:"));-->
+        <!--document.getElementById('listadd2').innerHTML += "<li>" + "Food:" + lunchfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";-->
+<!--}}-->
 
-function recorddinner() {
-    let i;
-    let dinnerfoodlist = [];
-    let gramls = [];
-    for(i=0; i < 1; i++) {
-        dinnerfoodlist.push(prompt("Enter food:"));
-        gramls.push(prompt("Enter amount of " + dinnerfoodlist[i] + " in gram:"));
-        document.getElementById('listadd3').innerHTML += "<li>" + "Food:" + dinnerfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";
-}}
+<!--function recorddinner() {-->
+    <!--let i;-->
+    <!--let dinnerfoodlist = [];-->
+    <!--let gramls = [];-->
+    <!--for(i=0; i < 1; i++) {-->
+        <!--dinnerfoodlist.push(prompt("Enter food:"));-->
+        <!--gramls.push(prompt("Enter amount of " + dinnerfoodlist[i] + " in gram:"));-->
+        <!--document.getElementById('listadd3').innerHTML += "<li>" + "Food:" + dinnerfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";-->
+<!--}}-->
 
-function recordsnacks() {
-    let i;
-    let snacksfoodlist = [];
-    let gramls = [];
-    for(i=0; i < 1; i++) {
-        snacksfoodlist.push(prompt("Enter food:"));
-        gramls.push(prompt("Enter amount of " + snacksfoodlist[i] + " in gram:"));
-        document.getElementById('listadd4').innerHTML += "<li>" + "Food:" + snacksfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";
-}}
+<!--function recordsnacks() {-->
+    <!--let i;-->
+    <!--let snacksfoodlist = [];-->
+    <!--let gramls = [];-->
+    <!--for(i=0; i < 1; i++) {-->
+        <!--snacksfoodlist.push(prompt("Enter food:"));-->
+        <!--gramls.push(prompt("Enter amount of " + snacksfoodlist[i] + " in gram:"));-->
+        <!--document.getElementById('listadd4').innerHTML += "<li>" + "Food:" + snacksfoodlist[i] + "<br />" + "Gram:" + gramls[i] + "<br />";-->
+<!--}}-->
 
-function recordexercise() {
-    let i;
-    let exerciselist = [];
-    let gramls = [];
-    for(i=0; i < 1; i++) {
-        exerciselist.push(prompt("Enter exercise:"));
-        document.getElementById('listadd5').innerHTML += "<li>" + "Exercise:" + exerciselist[i] + "<br />";
-}}
+<!--function recordexercise() {-->
+    <!--let i;-->
+    <!--let exerciselist = [];-->
+    <!--let gramls = [];-->
+    <!--for(i=0; i < 1; i++) {-->
+        <!--exerciselist.push(prompt("Enter exercise:"));-->
+        <!--document.getElementById('listadd5').innerHTML += "<li>" + "Exercise:" + exerciselist[i] + "<br />";-->
+<!--}}-->
 
-</script>
+<!--</script>-->
 {% extends "layout.html" %}
 {% block body %}
 
@@ -117,7 +117,7 @@ function recordexercise() {
         {#    Carbohydrates#}
         <div style="display:inline-block;" class="marginLR__">
             <h4 class="marginTB__">
-                250 g left | Carbs</h4>
+                {{ kcal.get_carbohydrates() }} g left | Carbs</h4>
 
             <!--Content card image-->
             <div id="ex3">
@@ -138,7 +138,7 @@ function recordexercise() {
 
         {#    Proteins#}
         <div style="display:inline-block; vertical-align: top;" class="marginLR__">
-            <h4 class="marginTB__"> 206g left | Proteins</h4>
+            <h4 class="marginTB__"> {{kcal.get_proteins()}} g left | Proteins</h4>
             <!--Content card image-->
             <div id="ex3">
                 <img class="img-circle hover"
@@ -155,7 +155,7 @@ function recordexercise() {
 
         <div style="display:inline-block; vertical-align: top;" class="marginLR__">
             <h4 class="marginTB__">
-                75g left | Fats</h4>
+                {{ kcal.get_fats() }} g left | Fats</h4>
 
             {#Content card image#}
             <div id="ex3">
@@ -172,15 +172,10 @@ function recordexercise() {
         </div>
     </div>
 </div>
-<br>
     <form method="POST" action="" enctype="multipart/form-data">
         {{ form.hidden_tag() }}
         <div class="container">
-            <p class="lead">
-                Meals
-            </p>
-            <a href="#Breakfast" class="btn btn-info" data-toggle="collapse">Breakfast</a>
-            <fieldset id="Breakfast" class="collapse">
+            <fieldset id="Meal">
                 <legend class="border-bottom mb-4">Food Details</legend>
                 <div class="form-group">
                     {{ form.name.label(class="form-control-label") }}
@@ -196,102 +191,23 @@ function recordexercise() {
                     {% endif %}
                 </div>
                 <div class="form-group">
-                    {{ form.mass.label(class="form-control-label") }}
-                    {% if form.mass.errors %}
-                        {{ form.mass(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.mass.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        {{ form.mass(class="form-control form-control-lg") }}
-                    {% endif %}
-                </div>
-                <div class="form-group">
-                    {{ form.submit(class="btn btn-outline-info") }}
-                </div>
-            </fieldset>
-        </div>
-    </form>
-<br>
-    <form method="POST" action="" enctype="multipart/form-data">
-        {{ form.hidden_tag() }}
-        <div class="container">
-            <a href="#Lunch" class="btn btn-info" data-toggle="collapse">Lunch</a>
-            <fieldset id="Lunch" class="collapse">
-                <legend class="border-bottom mb-4">Food Details</legend>
-                <div class="form-group">
-                    {{ form.name.label(class="form-control-label") }}
-                    {% if form.name.errors %}
-                        {{ form.name(class="form-control form-control-lg is-invalid") }}
+                    {{ form.meal.label(class="form-control-label") }}
+                    {% if form.meal.errors %}
+                        {{ form.meal(class="form-control form-control-lg is-invalid") }}
                         <div class="invalid-feedback">
                             {% for error in form.name.errors %}
                                 <span>{{ error }}</span>
                             {% endfor %}
                         </div>
                     {% else %}
-                        {{ form.name(class="form-control form-control-lg") }}
+                        {{ form.meal(class="form-control form-control-lg") }}
                     {% endif %}
                 </div>
                 <div class="form-group">
-                    {{ form.mass.label(class="form-control-label") }}
-                    {% if form.mass.errors %}
-                        {{ form.mass(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.mass.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        {{ form.mass(class="form-control form-control-lg") }}
-                    {% endif %}
-                </div>
-                <div class="form-group">
-                    {{ form.submit(class="btn btn-outline-info") }}
+                    {{ form.submit(class="btn btn-info") }}
                 </div>
             </fieldset>
         </div>
     </form>
-<br>
-    <form method="POST" action="" enctype="multipart/form-data">
-        {{ form.hidden_tag() }}
-        <div class="container">
-            <a href="#Dinner" class="btn btn-info" data-toggle="collapse">Dinner</a>
-            <fieldset id="Dinner" class="collapse">
-                <legend class="border-bottom mb-4">Food Details</legend>
-                <div class="form-group">
-                    {{ form.name.label(class="form-control-label") }}
-                    {% if form.name.errors %}
-                        {{ form.name(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.name.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        {{ form.name(class="form-control form-control-lg") }}
-                    {% endif %}
-                </div>
-                <div class="form-group">
-                    {{ form.mass.label(class="form-control-label") }}
-                    {% if form.mass.errors %}
-                        {{ form.mass(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.mass.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        {{ form.mass(class="form-control form-control-lg") }}
-                    {% endif %}
-                </div>
-                <div class="form-group">
-                    {{ form.submit(class="btn btn-outline-info") }}
-                </div>
-            </fieldset>
-        </div>
-    </form>
-<br>
 </body>
 {% endblock %}

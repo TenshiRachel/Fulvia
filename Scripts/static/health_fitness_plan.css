@@ -24,19 +24,6 @@ table{
     background-color: #545454;
 }
 
-#lastmth{
-    float: left;
-}
-
-#nextmth{
-    float: right;
-}
-
-#month{
-    font-weight: bold;
-    font-size: 20px;
-}
-
 #Nov, #Dec, #Jan, #Feb, #Mar, #Apr. #May, #Jun{
     width: 1160px;
 }

@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/health_fitness_plan.css">
-    <script src="../static/health_fitness_plan.js"></script>
+    <title>Health & Fitness Schedule Planner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='health_fitness_plan.css') }}">
+    <script src="{{ url_for('static', filename='health_fitness_plan.js') }}"></script>
 </head>
 <body>
 <!-- Navigation bar -->
 {% extends 'layout.html' %}
 {% block body %}
+
 <!-- calendar page -->
 <div id="overlay">
     <div id="spinner"></div>
@@ -29,8 +38,8 @@
                     <table class="table table-striped col-8" id="calendar">
                         <tr>
                             <th colspan="7">
-                                <button class="btn btn-success text-white" id="lastmth" disabled>&laquo;</button>
-                                <span id="month">November 2018</span>
+                                <button class="btn btn-success text-white" id="lastmth" onclick="BacktoOct()" disabled>&laquo;</button>
+                                November 2018
                                 <button class="btn btn-success text-white" id="nextmth" onclick="GotoDec()">&raquo;</button>
                             </th>
                         </tr>
@@ -170,7 +179,7 @@
                         <tr>
                             <th colspan="7">
                                 <button class="btn btn-success text-white" onclick="BacktoNov()">&laquo;</button>
-                                <span id="month">December 2018</span>
+                                December 2018
                                 <button class="btn btn-success text-white" onclick="GotoJan()">&raquo;</button>
                             </th>
                         </tr>
@@ -333,7 +342,7 @@
                         <tr>
                             <th colspan="7">
                                 <button class="btn btn-success text-white" onclick="BacktoDec()">&laquo;</button>
-                                <span id="month">January 2019</span>
+                                January 2019
                                 <button class="btn btn-success text-white" onclick="GotoFeb()">&raquo;</button>
                             </th>
                         </tr>
@@ -472,7 +481,7 @@
                         <tr>
                             <th colspan="7">
                                 <button class="btn btn-success text-white" onclick="BacktoJan()">&laquo;</button>
-                                <span id="month">February 2019</span>
+                                February 2019
                                 <button class="btn btn-success text-white" onclick="GotoMar()">&raquo;</button>
                             </th>
                         </tr>
@@ -611,7 +620,7 @@
                         <tr>
                             <th colspan="7">
                                 <button class="btn btn-success text-white" onclick="BacktoFeb()">&laquo;</button>
-                                <span id="month">March 2019</span>
+                                March 2019
                                 <button class="btn btn-success text-white" onclick="GotoApr()">&raquo;</button>
                             </th>
                         </tr>
@@ -773,7 +782,7 @@
                         <tr>
                             <th colspan="7">
                                 <button class="btn btn-success" onclick="BacktoMar()">&laquo;</button>
-                                <span id="month">April 2019</span>
+                                April 2019
                                 <button class="btn btn-success" onclick="GotoMay()">&raquo;</button>
                             </th>
                         </tr>
@@ -908,11 +917,11 @@
                     <h3>Month/Year:
                         <span class="important">May / 2019</span>
                     </h3>
-                    <table class="table table-striped col-8" id="calendar">
+                    <table class="table table-striped" id="calendar">
                         <tr>
                             <th colspan="7">
                                 <button class="btn btn-success" onclick="BacktoApr()">&laquo;</button>
-                                <span id="month">May 2019</span>
+                                May 2019
                                 <button class="btn btn-success">&raquo;</button>
                             </th>
                         </tr>
@@ -1046,11 +1055,11 @@
                     <h3>Month/Year:
                         <span class="important">June / 2019</span>
                     </h3>
-                    <table class="table table-striped col-8" id="calendar">
+                    <table class="table table-striped" id="calendar">
                         <tr>
                             <th colspan="7">
                                 <button class="btn btn-success" onclick="BacktoMay()">&laquo;</button>
-                                <span id="month">June 2019</span>
+                                June 2019
                                 <button class="btn btn-success" onclick="GotoJun()">&raquo;</button>
                             </th>
                         </tr>
@@ -1195,7 +1204,7 @@
                     </table>
                 </div>
             </div>
-            <div id="legendcont" class="col-lg-3 col-sm-12" style="float:right">
+            <div id="legendcont" class="col-lg-3 col-sm-12">
 
                 <div id="legend" class="col-12 ">
                     <p>Legend</p>
@@ -1219,11 +1228,14 @@
                     </div>
                 </div>
                 <div>
-                    <button class="btn btn-success col-12"  onclick="window.location.href = '../schedule/ToDoList';">&raquo; Go to To-Do-List &raquo;</button>
+                    <button class="btn btn-success"  onclick="window.location.href = '../schedule/ToDoList';">&raquo; Go To-Do-List &raquo;</button>
                 </div>
             </div>
-            <div id="plannerinstruction" class="col-lg-4">
-                <button id="displayinstruction" class="btn btn-primary col-12" data-toggle="collapse" data-target="#instruction">Instructions(Words format)</button>
+            <div class="col-12">
+                <br>
+            </div>
+            <div id="plannerinstruction" class="col-lg-12">
+                <button id="displayinstruction" class="btn btn-primary col-12" data-toggle="collapse" data-target="#instruction">Instructions</button>
                 <div id="instruction" class="collapse">
                     <table id="allinstruction" class="table table-light">
                         <thead>
@@ -1254,10 +1266,6 @@
                         </tr>
                     </table>
                 </div>
-            </div>
-
-            <div class="col-12">
-                <br>
             </div>
         </div>
     </div>
