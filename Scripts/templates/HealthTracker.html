@@ -22,16 +22,16 @@
 {% block body %}
     <div id="healthtracker">
         <!--Update-->
-    <div class="alert alert-info" id="update">
-        <strong>Update!</strong> Your new heart rate as of <strong><span id="date"></span></strong> is <strong><span id="record"></span></strong> beats per minute.
-    </div>
+    <!--<div class="alert alert-success" id="update">
+        <strong>Heart rate successfully updated!</strong>
+    </div>-->
         <!--User Stats-->
-    <h1>{{ current_user.username }}</h1>
+    <h1>{{ current_user.username }}'s Health Tracker</h1>
     <img class="rounded-circle account-img" src="{{ image_file }}">
     <div id="userstats">
     <p>Age : <strong>{{ current_user.age }}</strong></p><br>
-    <p>Previous Heart Rate: <strong><span id="record2">???</span></strong> beats per minute</p><br>
-    <p>Previously Recorded on: <strong><span id="date2">???</span></strong></p><br>
+    <p>Previous Heart Rate: <strong><span id="record">???</span></strong> beats per minute</p><br>
+    <p>Previously Recorded on: <strong><span id="date">???</span></strong></p><br>
     <p>Condition: <strong><span id="condition">???</span></strong></p><br>
     <p>Recommended Measures: <strong><span id="recommend">???</span></strong></p><br>
     <p style="font-weight: bold;">(Note: Subject to change)</p><br>
@@ -39,15 +39,15 @@
     <div id="measure">
     <div id="measure_stats">
         <!--Measure heart rate-->
-    <h3>No. of heart beats in 15 seconds:<textarea placeholder="E.g.(20, 30)" id="bpm"></textarea></h3>
+    <h3>No. of heart beats in 1 minute:<textarea placeholder="E.g.(20, 30)" id="bpm"></textarea></h3>
     </div>
-    <button type="button" class="btn btn-warning" id="myBtn" onclick="Multiply()">MEASURE</button>
+    <button type="button" class="btn btn-warning" id="myBtn" data-toggle="modal" data-target="#backtoHealthTracker">MEASURE</button>
 </div>
     <div id="instructions">
         <!--Instructions-->
         <h1 id="heading">Want to measure your heart rate? Click <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#info">here</button> to see how!</h1>
         <div id="info" class="collapse">
-            <h2>Learn what is a normal heart rate and how to find your pulse with your fingers or a device</h2>
+            <h2>Learn what is a normal heart rate and how to find your pulse with your fingers or a device.</h2>
             <p>Measuring your heart rate is any easy way to gauge your health, as it provides a real-time snapshot of your heart muscle function.</p>
             <p>A normal heart rate can vary from person to person. However, an unusually high or low resting heart rate can be a sign of trouble.</p>
             <h2>What is a normal heart rate?</h2>
@@ -59,7 +59,7 @@
                 <img src="https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/2018/1-whatshouldmy.jpg" style="float: right; width: 200px; height: 100px;">
                 <li>At the neck, lightly press the side of the neck, just below your jawbone.</li>
                 <li>Alternatively, at the wrist, lightly press the index and middle fingers of one hand on the opposite wrist, just below the base of the thumb.</li>
-                <li>Count the number of beats in 15 seconds, and multiply by four. That's your heart rate.</li>
+                <li>Alternatively, you may use a heart rate monitor if necessary.</li>
                 <li>Depending on your heart rate at rest, the health tracker will identify your condition as follows:</li>
                 <ol>
                     <li><strong>Poor: </strong>If your heart rate is lower than 60 beats per minute.</li>
@@ -70,6 +70,25 @@
             </ul>
         </div>
     </div>
+        <div class="modal fade" id="backtoHealthTracker" tabindex="-1" role="dialog" aria-labelledby="backtoHealthTrackerLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="backtoHealthTrackerLabel">Are you sure?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Once you submit, you cannot change your input again!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-warning" onclick="Multiply()">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
 </div>
 <div id="chartContainer">
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>

@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2856a55d-ff9c-4593-8a56-33c78cdfdb0a" name="Default Changelist" comment="Update HTMLSv1.1">
-      <change afterPath="$PROJECT_DIR$/Scripts/templates/addFood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HealthFitv0.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HealthFitv0.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/health.db" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/health.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/templates/food.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/food.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/static/HealthTracker.css" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/static/HealthTracker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/static/HealthTracker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/static/HealthTracker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/static/health_fitness_plan.css" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/static/health_fitness_plan.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/static/health_fitness_plan.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/static/health_fitness_plan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/static/todolist.css" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/static/todolist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/static/todolist.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/static/todolist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/templates/ExGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/ExGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/templates/HealthTracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/HealthTracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/templates/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/templates/todolist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +31,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/HealthFitv0_11$Revision2.coverage" NAME="Revision2 Coverage Results" MODIFIED="1542851646477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Python Scripts" />
-    <SUITE FILE_PATH="coverage/HealthFitv0_11_master$routes.coverage" NAME="routes Coverage Results" MODIFIED="1545272892567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
     <SUITE FILE_PATH="coverage/HealthFitv0_11_master$app.coverage" NAME="app Coverage Results" MODIFIED="1544590683296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HealthFitv0_11_master$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1546394310840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master" />
-    <SUITE FILE_PATH="coverage/HealthFitv0_11$Practical5.coverage" NAME="Practical5 Coverage Results" MODIFIED="1542852445998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Practical5" />
-    <SUITE FILE_PATH="coverage/HealthFitv0_11$app.coverage" NAME="app Coverage Results" MODIFIED="1544344509132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HealthFitv0_11_master$run.coverage" NAME="run Coverage Results" MODIFIED="1547445101647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_11_master$routes.coverage" NAME="routes Coverage Results" MODIFIED="1545272892567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
     <SUITE FILE_PATH="coverage/HealthFitv0_11$Revision1.coverage" NAME="Revision1 Coverage Results" MODIFIED="1542778757699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Python Scripts" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_11$Practical5.coverage" NAME="Practical5 Coverage Results" MODIFIED="1542852445998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Practical5" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_11_master$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1546394310840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_2_master$run.coverage" NAME="run Coverage Results" MODIFIED="1547712965862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_11$Revision2.coverage" NAME="Revision2 Coverage Results" MODIFIED="1542851646477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Python Scripts" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_11_master$run.coverage" NAME="run Coverage Results" MODIFIED="1547445101647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_2$run.coverage" NAME="run Coverage Results" MODIFIED="1548062475619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_11$app.coverage" NAME="app Coverage Results" MODIFIED="1544344509132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HealthFitv0_2$routes.coverage" NAME="routes Coverage Results" MODIFIED="1548058918785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -146,97 +161,148 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1998018857">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="28" />
+          <entry key="py" value="355" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="28" />
+          <entry key="Python" value="355" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1495524640">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="4" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="135" />
+          <entry key="py" value="322" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="135" />
+          <entry key="Python" value="322" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2116264622">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="109" column="90" selection-start-line="109" selection-start-column="90" selection-end-line="109" selection-end-column="90" />
+            <state relative-caret-position="1853">
+              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <marker date="1547438346605" expanded="true" signature="1703:1704" ph="..." />
-                <marker date="1547438346605" expanded="true" signature="3171:3176" ph="..." />
-                <marker date="1547438346605" expanded="true" signature="3488:3493" ph="..." />
-                <marker date="1547438346605" expanded="true" signature="3695:3704" ph="..." />
-                <marker date="1547438346605" expanded="true" signature="3932:3934" ph="..." />
-                <marker date="1547438346605" expanded="true" signature="4251:4672" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Fitness.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Exercises.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1207">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scripts/routes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="301" selection-start-line="301" selection-end-line="302" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1547446475470" expanded="true" signature="2581:2939" ph="..." />
-                <marker date="1547446475470" expanded="true" signature="4364:4749" ph="..." />
-                <marker date="1547446475470" expanded="true" signature="4823:6071" ph="..." />
-                <marker date="1547446475470" expanded="true" signature="16604:16609" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-                <marker date="1545272122854" expanded="true" signature="52:53" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1546937137285" expanded="true" signature="318:361" ph="..." />
-                <marker date="1546937137285" expanded="true" signature="1446:1642" ph="..." />
-                <marker date="1546937137285" expanded="true" signature="2807:2964" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/templates/todolist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="415" selection-start-line="415" selection-end-line="415" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/templates/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="32" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/templates/food.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="210" column="11" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -244,8 +310,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/templates/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+            <state relative-caret-position="2482">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
             </state>
           </provider>
         </entry>
@@ -255,19 +321,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>exercise</find>
-      <find>user</find>
-      <find>commit</find>
-      <find>data</find>
-      <find>data-parent</find>
-      <find>your account</find>
       <find>foodform</find>
       <find>collapse</find>
       <find>filter_by</find>
@@ -279,7 +339,6 @@
       <find>r1</find>
       <find>form</find>
       <find>query.filter_by</find>
-      <find>form.validate_on_submit</find>
       <find>db.session.add</find>
       <find>name</find>
       <find>schedule</find>
@@ -292,6 +351,13 @@
       <find>Todo</find>
       <find>request</find>
       <find>get_maintenance</find>
+      <find>delete</find>
+      <find>now</find>
+      <find>profile</find>
+      <find>for i</find>
+      <find>form.validate_on_submit</find>
+      <find>bfastt</find>
+      <find>datetime.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -321,11 +387,7 @@
         <option value="$PROJECT_DIR$/Scripts/init.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/Database_Models.py" />
-        <option value="$PROJECT_DIR$/Scripts/templates/home.html" />
-        <option value="$PROJECT_DIR$/Scripts/templates/ExGuide.html" />
-        <option value="$PROJECT_DIR$/Scripts/templates/layout.html" />
         <option value="$PROJECT_DIR$/Scripts/templates/register.html" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/Scripts/templates/schedule.html" />
         <option value="$PROJECT_DIR$/Scripts/templates/todolist.html" />
         <option value="$PROJECT_DIR$/Scripts/templates/reset_request.html" />
@@ -341,7 +403,12 @@
         <option value="$PROJECT_DIR$/Scripts/forms.py" />
         <option value="$PROJECT_DIR$/Scripts/templates/food.html" />
         <option value="$PROJECT_DIR$/Scripts/templates/profile.html" />
+        <option value="$PROJECT_DIR$/Scripts/templates/ExGuide.html" />
+        <option value="$PROJECT_DIR$/Scripts/templates/home.html" />
+        <option value="$PROJECT_DIR$/Scripts/GuideStore.py" />
+        <option value="$PROJECT_DIR$/Scripts/templates/layout.html" />
         <option value="$PROJECT_DIR$/Scripts/routes.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
@@ -352,9 +419,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="974" />
+    <option name="x" value="197" />
+    <option name="y" value="16" />
     <option name="width" value="953" />
-    <option name="height" value="1047" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -362,22 +430,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="HealthFitv0.11-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthFitv0.11-master" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFitv0.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HealthFitv0.2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HealthFitv0.11-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthFitv0.11-master" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFitv0.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HealthFitv0.2" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HealthFitv0.11-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthFitv0.11-master" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFitv0.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HealthFitv0.2" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HealthFitv0.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HealthFitv0.2" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -385,15 +458,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -502,10 +576,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.routes" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="Python.routes" />
       </list>
     </recent_temporary>
   </component>
@@ -538,15 +612,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="974" y="0" width="953" height="1047" extended-state="0" />
+    <frame x="197" y="16" width="953" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21052632" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22844344" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49668875" weight="0.32518598" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49668875" visible="true" weight="0.32418525" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,9 +684,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/Python Scripts/Revision2.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FlaskApp-master.zip/FlaskApp-master/LibrarySystem.py" />
-    <entry file="file://$PROJECT_DIR$/../../FlaskApp-master/FlaskApp-master/Magazine.py" />
+    <entry file="file://$USER_HOME$/FlaskApp-master/FlaskApp-master/Magazine.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master.zip/HealthFitv0.11-master/app.py" />
     <entry file="file://$PROJECT_DIR$/templates/includes/navbar.html" />
     <entry file="file://$PROJECT_DIR$/static/Carousel_OOPP/ExerciseGuide.png" />
@@ -631,13 +703,7 @@
     <entry file="file://$PROJECT_DIR$/Scripts/static/profile_pics/default.jpg" />
     <entry file="file://$PROJECT_DIR$/Scripts/HealthTracker.css" />
     <entry file="file://$PROJECT_DIR$/Scripts/static/Carousel_OOPP/default.png" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1220" selection-start-line="1220" selection-end-line="1220" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/flask/app.py" />
     <entry file="file://$PROJECT_DIR$/Scripts/static/profile_pics/default.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -645,13 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/templates/ExGuide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -683,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Fitness.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/templates/exercise.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -697,26 +749,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Exercises.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master/Exercises.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master/Fitness.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master/Exercises.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master/Fitness.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_HealthFitv0.11-master (1).zip/HealthFitv0.11-master/app.py" />
     <entry file="file://$PROJECT_DIR$/Scripts/templates/HealthTracker.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
@@ -735,20 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="100" column="51" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -784,6 +805,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/templates/todolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7055">
+          <caret line="415" selection-start-line="415" selection-end-line="415" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/routes_BACKUP_23340.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -791,81 +836,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <marker date="1545272122854" expanded="true" signature="52:53" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/templates/todolist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="415" selection-start-line="415" selection-end-line="415" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="109" column="90" selection-start-line="109" selection-start-column="90" selection-end-line="109" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1547438346605" expanded="true" signature="1703:1704" ph="..." />
-            <marker date="1547438346605" expanded="true" signature="3171:3176" ph="..." />
-            <marker date="1547438346605" expanded="true" signature="3488:3493" ph="..." />
-            <marker date="1547438346605" expanded="true" signature="3695:3704" ph="..." />
-            <marker date="1547438346605" expanded="true" signature="3932:3934" ph="..." />
-            <marker date="1547438346605" expanded="true" signature="4251:4672" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/templates/food.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="210" column="11" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
+        <state relative-caret-position="3417">
+          <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/templates/ExGuide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/GuideStore.py" />
+    <entry file="file://$PROJECT_DIR$/Scripts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Fitness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Exercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1546937137285" expanded="true" signature="318:361" ph="..." />
-            <marker date="1546937137285" expanded="true" signature="1446:1642" ph="..." />
-            <marker date="1546937137285" expanded="true" signature="2807:2964" ph="..." />
-          </folding>
+        <state relative-caret-position="2482">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="301" selection-start-line="301" selection-end-line="302" selection-end-column="33" />
+        <state relative-caret-position="-1207">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1547446475470" expanded="true" signature="2581:2939" ph="..." />
-            <marker date="1547446475470" expanded="true" signature="4364:4749" ph="..." />
-            <marker date="1547446475470" expanded="true" signature="4823:6071" ph="..." />
-            <marker date="1547446475470" expanded="true" signature="16604:16609" ph="..." />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
