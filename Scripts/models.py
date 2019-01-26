@@ -2,7 +2,6 @@ from datetime import datetime
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from Scripts import db, login_manager, app
 from flask_login import UserMixin
-from whooshalchemy import IndexService
 app.config['WHOOSH_BASE'] = 'path/to/whoosh/base'
 
 @login_manager.user_loader
@@ -21,6 +20,7 @@ class User(db.Model, UserMixin):
     breakfast = db.relationship('Breakfast', backref='name', lazy=True)
     lunch = db.relationship('Lunch', backref='name', lazy=True)
     dinner = db.relationship('Dinner', backref='name', lazy=True)
+    exercise = db.relationship('Fitness', backref='name', lazy=True)
     age = db.Column(db.Integer)
     weight = db.Column(db.Integer)
     height = db.Column(db.Integer)
@@ -46,7 +46,7 @@ class User(db.Model, UserMixin):
 
 class Schedule(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    date_posted = db.Column(db.DateTime, nullable=False, default=datetime.now())
     description = db.Column(db.String(500), nullable=False)
     remarks = db.Column(db.String(500), nullable=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
@@ -70,8 +70,11 @@ class Food(db.Model):
 
 class Fitness(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
+    exercisename = db.Column(db.String(100), nullable=False)
     duration = db.Column(db.Integer(), nullable=False)
+    intensity = db.Column(db.String(100), nullable=False)
+    calories = db.Column(db.Integer(), nullable=False)
+    user_id = db.Column(db.Integer(), db.ForeignKey('user.id'), nullable=False)
 
     def __repr__(self): #How objects are printed
         return f"Fitness('{self.name}', '{self.duration}')"

@@ -71,7 +71,7 @@ class UpdateDetails(FlaskForm):
 class TodoList(FlaskForm):
     datetime = DateField('Date', format='%Y-%m-%d')
     description = TextAreaField('Description', validators=[DataRequired()], render_kw={"placeholder":"Enter your to-do in this section\nExample: Do 4 sets of 10 push-ups everyday starting from 26 January 2019"})
-    remarks = TextAreaField('Remarks', render_kw={"placeholder":"Enter any important info about your to-dos\nExample: To train for stomach muscles"})
+    remarks = TextAreaField('Remarks', render_kw={"placeholder":"Enter any important info about your to-dos\nExample: To train for stomach muscles and arms biceps"})
     submit = SubmitField('Add')
 
 class RequestResetForm(FlaskForm):
@@ -102,9 +102,9 @@ class FoodForm(FlaskForm):
     submit = SubmitField('Add Food')
 
 class ExerciseForm(FlaskForm):
-    name = StringField('Exercise',validators=[DataRequired()])
-    duration = IntegerField('Duration',validators=[DataRequired()])
-    intensity = IntegerField('Reps',validators=[DataRequired()])
+    name = SelectField('Exercise',choices=[('pushup','Push Up'),('squats','Squats'),('flutterkicks','Flutter Kicks'),('tuckjump','Tuck Jump'),('jumpingjacks','Jumping Jacks'),('crunches','Crunches')])
+    duration = SelectField('Duration',choices=[('ten','10'),('twenty','20'),('thirty','30'),('forty','40'),('fifty','50'),('sixty','60')])
+    intensity = SelectField('Intensity',choices=[('light','Light'),('moderate','Moderate'),('vigorious','Vigorious')])
     submit = SubmitField('Add Exercise')
 
 class SearchForm(FlaskForm):
